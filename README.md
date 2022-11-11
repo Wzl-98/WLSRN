@@ -20,4 +20,3 @@
 # Acknowledgement
 #### With greatly appreciation for [RCAN](https://github.com/yulunzhang/RCAN) and [Knowledge-Distillation-for-Super-resolution](https://github.com/Vincent-Hoo/Knowledge-Distillation-for-Super-resolution)
 # Citation
-#### Coming soon.
