@@ -11,12 +11,12 @@
 ### Environment
 #### --python 3.6.0<br>--cuda 10.1<br>--torch 0.4.1
 ### Train
-#### --cd Teacher/code<br><br>--python main.py --model Teacher --save Teacher --scale 2 --n_resgroups 10 --n_resblocks 20 --n_feats 64 --reset --save_results --print_model --patch_size 192 --ext img --n_colors 1 --batch_size 16 --epochs 1000
+#### --cd Teacher/code<br><br>--python main.py --model Teacher --save Teacher --scale 2 --n_resgroups 10 --n_resblocks 20 --n_feats 64 --reset --save_results --print_model --ext img --n_colors 1 --patch_size 192 
 ## Student network (WLSRN)
 ### Environment
 #### --python 3.6.9<br>--cuda 10.1<br>--torch 1.1.0
 ### Train
-#### --cd WLSRN/code<br><br>--python train.py --ckp_dir WLSRN_train --scale 2 --teacher [Teacher] --model WLSRN --alpha 0.7 --epochs 1000 --save_results --save_gt --ext img --n_colors 1 --batch_size 16 --patch_size 192
+#### --cd WLSRN/code<br><br>--python train.py --ckp_dir WLSRN_train --scale 2 --teacher [Teacher] --model WLSRN --alpha 0.7 --save_results --save_gt --ext img --n_colors 1--patch_size 192
 # Acknowledgement
 #### With greatly appreciation for [RCAN](https://github.com/yulunzhang/RCAN) and [Knowledge-Distillation-for-Super-resolution](https://github.com/Vincent-Hoo/Knowledge-Distillation-for-Super-resolution)
 # Citation
